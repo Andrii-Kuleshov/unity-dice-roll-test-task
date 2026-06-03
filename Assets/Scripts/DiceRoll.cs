@@ -24,4 +24,9 @@ public class DiceRoll : MonoBehaviour
             Debug.Log("Failure!");
         }
     }
+
+    public void RunAway()
+    {
+        Debug.Log("Player escaped from the quest.");
+    }
 }
